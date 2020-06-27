@@ -20,12 +20,6 @@
   }
 }
 
-@media only (max-width:600px) {
-    display-3 {
-    font-size: 3rem !important;
-  }
-}
-
 .jumbotron p:last-child {
   margin-bottom: 0;
 }
