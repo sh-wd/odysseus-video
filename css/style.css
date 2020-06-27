@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+.jumbotron {
+  font-family: 'Audiowide', cursive;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-image: );
+  background: linear-gradient(#fff, transparent 50%),
+              linear-gradient(0deg, #fff, transparent),
+              #fff url('https://cdn141.picsart.com/257800907021202.jpg?type=webp&to=min&r=640') no-repeat center;
+  background-size: cover;
+}
+
+@media only (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+@media only (max-width:600px) {
+    display-3 {
+    font-size: 3rem !important;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+.album {
+  font-family: 'Michroma', sans-serif;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
